@@ -7,8 +7,10 @@ body{
 *{
     color: white;
 }
+
 h1, h2{
     color: #ed2c2c;
+    text-align: center;
 }
 p{
     font-size: 20px;
