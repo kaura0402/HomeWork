@@ -1,0 +1,15 @@
+span, span1 {
+    font-size: 60px;
+    background-color: rgba(172, 170, 170, 0.49);
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+}
+span {
+    color: red;
+}
+p {
+    font-size: 30px;
+    margin-left: 300px;
+    }
