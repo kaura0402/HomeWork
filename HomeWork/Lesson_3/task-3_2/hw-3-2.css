@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+section{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sectionTop {
+    background-color: #fec1cb;
+    color: #292929
+}
+.sectionBottom {
+    background-color: #292929;
+    color: #ffffff
+}
+section p1 {
+    font-size: 1.8rem;
+    align-self: center;
+    margin-bottom: 20px;
+}
+section p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+}
