@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.image{
+    position: fixed;
+    left: 300px; /* Відстань від лівого краю */
+    top: 550px;
+    width: 100px; /* Ширина зображення */
+    height: auto; /* Автоматична висота для збереження пропорцій */
+    animation: moveImage 8s infinite;
+
+
+}
+.box{
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    left: 400px;
+    top: 250px;
+    overflow: hidden;
+    background: #7bff00;
+    animation: moveImage1 8s infinite;/* Світлий фон для контрасту */
+}
+@keyframes moveImage {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(400px, 0);
+        /* Зміщення зображення */
+    }
+    50% {
+        transform: translate(400px, -410px); /* Зміщення зображення */
+    }
+    75% {
+        transform: translate(0, -410px); /* Зміщення зображення */
+    }
+    100% {
+        transform: translate(0, 0); /* Зміщення зображення */
+    }
+}
+@keyframes moveImage1 {
+    0% {
+        background: #ed2c2c;
+    }
+    25% {
+        background: #4d5fd5; /* Світлий фон для контрасту */
+        /* Зміщення зображення */
+    }
+    50% {
+        background: #c88b8b; /* Зміщення зображення */
+    }
+    75% {
+        background: #41ae9e; /* Зміщення зображення */
+    }
+    100% {
+         background: #7bff00; /* Зміщення зображення */
+    }
+}
