@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+.image {
+    position: fixed;
+    bottom: 100px;
+    rotate: 320deg; /* Відстань віднизу */
+    left: 0;
+    width: 200px; /* Ширина зображення */
+    height: auto; /* Автоматична висота для збереження пропорцій */
+    animation: moveImage 5s linear infinite;
+    animation-delay: 3s;
+}
+.diagonal-line {
+    position: fixed;
+    width: 141.42%;
+    height: 10px;
+    background: black;
+    transform-origin: left bottom;
+    left: 0;
+    bottom: 0;
+    animation: draw 3s linear forwards ;
+}
+@keyframes draw {
+    0% {
+        transform: rotate(-33deg) scaleX(0);
+    }
+    100% {
+        transform: rotate(-33deg) scaleX(1);
+    }
+}
+@keyframes moveImage {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(1200px, 210px) scale(0.2);
+    }
+}
