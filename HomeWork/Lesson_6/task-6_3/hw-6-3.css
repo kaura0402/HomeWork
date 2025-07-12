@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body{
+    height: 100vh;
+}
+main{
+    width: 675px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    margin: 50px auto 0 auto;
+}
+footer{
+    width: 675px;
+    height: 100px;
+    background-color: #ffffff;
+    color: #0c0c0c;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+}
+.logo {
+    width: 350px;
+    object-fit: contain;
+    margin: 80px auto 10px;
+}
+.form {
+    width: 550px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+.checkbox{
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    margin-bottom: -4px;
+    background-image: url("img/favicon-16x16.png");
+    background-size: cover;
+}
+.input1{
+    width: 500px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin: 50px 0 10px  0;
+}
+.input2{
+    width: 500px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+button{
+    width: 500px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #7ab5f4;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+p{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+    margin: 10px 0 50px  0;
+}
+.checkbox +span{
+    font-size: 25px;
+    font-weight: bold;
+    color: #405484;
+    margin: 50px 10px 40px  0;
+}
+.forgot-password{
+    font-size: 25px;
+    font-weight: bold;
+    color: #43609e;
+    margin: 50px 0 0  0;
+}
