@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1.1fr 1.4fr;
+    grid-template-rows: 1fr 9.2fr 9.2fr 2.2fr;
+    grid-template-areas:
+    "header header header"
+    "spam0 main spam1"
+    "spam0 main spam2"
+    "footer footer footer";
+}
+header{
+    grid-area: header;
+    background-color: #d9d9d9;
+}
+.spam0{
+    grid-area: spam0;
+    background-color: #a5a5a5;
+}
+.spam1{
+    grid-area: spam1;
+    background-color: #807b7b;
+}
+.spam2{
+    grid-area: spam2;
+    background-color: #6c6262;
+}
+main{
+    grid-area: main;
+    background-color: #c1c1c1;
+}
+footer{
+    grid-area: footer;
+    background-color: #d9d9d9;
+}
